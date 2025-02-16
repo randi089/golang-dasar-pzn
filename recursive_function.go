@@ -20,7 +20,7 @@ func factorialLoop(value int) int {
 
 func main() {
 	resultFunction := factorial(5)
-	resultLoop := factorialLoop(5)
+	resultLoop := factorialLoop(10)
 
 	fmt.Println(resultFunction)
 	fmt.Println(resultLoop)
