@@ -16,9 +16,9 @@ func main() {
 	data := NewMap("Randi")
 
 	if data == nil {
-		fmt.Println("Data kosong")
+		fmt.Println("Data map masih kosong")
 	} else {
-		fmt.Println(data)
+		fmt.Println(data["name"])
 	}
 
 }
